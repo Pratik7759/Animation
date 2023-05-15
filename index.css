@@ -107,7 +107,7 @@
   margin-bottom: 8px;
 }
 #pot {
-  bottom: 5%;
+  bottom: 16%;
   position: absolute;
   -webkit-animation: forwards;
   -webkit-animation-name: run;
@@ -117,21 +117,21 @@
 }
 @-webkit-keyframes run {
   0% {
-    left: -15%;
+    left: -30%;
     visibility: visible;
   }
   50% {
-    left: 0%;
+    left: -1%;
     visibility: visible;
   }
   100% {
-    left: 0%;
+    left: -1%;
     visibility: visible;
   }
 }
 
 #pot2 {
-  bottom: 5%;
+  bottom: 6%;
   position: absolute;
   -webkit-animation: forwards;
   -webkit-animation-name: tradeimg;
@@ -142,15 +142,15 @@
 }
 @-webkit-keyframes tradeimg {
   0% {
-    right: -15%;
+    right: -30%;
     visibility: visible;
   }
   50% {
-    right: 0%;
+    right: -14%;
     visibility: visible;
   }
   100% {
-    right: 0%;
+    right: -14%;
     visibility: visible;
   }
 }
