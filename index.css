@@ -1,0 +1,156 @@
+.container {
+  position: relative;
+  max-width: 100%;
+  overflow-x: hidden;
+  height: 100vh;
+  background: #c2c2c2;
+  overflow-y: hidden;
+}
+
+.trans {
+  animation-name: example;
+  animation-duration: 2s;
+  color: #010304;
+  font-weight: 700;
+  font-size: 60px;
+  width: 686px;
+  position: absolute;
+  top: 77px;
+  left: 50%;
+  transform: translateX(-50%);
+  text-align: center;
+  font-family: "Inter";
+  animation-timing-function: linear;
+}
+@keyframes example {
+  from {
+    font-size: 120px;
+    font-weight: 700;
+    width: 1372px;
+    top: 27%;
+    animation-timing-function: linear;
+  }
+  to {
+    animation-timing-function: linear;
+  }
+}
+
+.second-text {
+  position: absolute;
+  animation-name: example2;
+  animation-duration: 3s;
+  left: 50%;
+  top: 230px;
+  transform: translateX(-50%);
+  display: block;
+  color: #010304;
+  width: 480px;
+  text-align: center;
+  font-weight: 500;
+  font-size: 18px;
+  font-family: "Inter";
+  animation-timing-function: linear;
+}
+
+@keyframes example2 {
+  0% {
+    top: 260px;
+    visibility: hidden;
+  }
+  25% {
+    top: 260px;
+    visibility: hidden;
+  }
+  75% {
+    top: 260px;
+    visibility: hidden;
+  }
+  100% {
+    top: 230px;
+    visibility: visible;
+  }
+}
+.started-btn {
+  color: white;
+  background-color: black;
+  align-items: center;
+  padding: 16px 32px;
+  width: 153px;
+  height: 56px;
+  border-radius: 999px;
+  border: none;
+  margin-top: 38px;
+}
+
+.text-cont {
+  width: 180px;
+  /* height: 77px; */
+  background: #ffffff;
+  display: flex;
+  justify-content: center;
+  margin-left: 32%;
+  margin-top: 23px;
+}
+
+.scanner-text {
+  width: 79px;
+  height: 40px;
+  font-family: "Inter";
+  font-weight: 600;
+  font-size: 14px;
+  padding: 18px 0px 19px 16px;
+  text-align: left;
+}
+.scanner {
+  padding-left: 16px;
+  margin-top: 8px;
+  margin-bottom: 8px;
+}
+#pot {
+  bottom: 5%;
+  position: absolute;
+  -webkit-animation: forwards;
+  -webkit-animation-name: run;
+  -webkit-animation-duration: 3s;
+  animation-delay: 2s;
+  visibility: hidden;
+}
+@-webkit-keyframes run {
+  0% {
+    left: -15%;
+    visibility: visible;
+  }
+  50% {
+    left: 0%;
+    visibility: visible;
+  }
+  100% {
+    left: 0%;
+    visibility: visible;
+  }
+}
+
+#pot2 {
+  bottom: 5%;
+  position: absolute;
+  -webkit-animation: forwards;
+  -webkit-animation-name: tradeimg;
+  -webkit-animation-duration: 3s;
+  animation-delay: 2s;
+  margin-left: 1135px;
+  visibility: hidden;
+}
+@-webkit-keyframes tradeimg {
+  0% {
+    right: -15%;
+    visibility: visible;
+  }
+  50% {
+    right: 0%;
+    visibility: visible;
+  }
+  100% {
+    right: 0%;
+    visibility: visible;
+  }
+}
